@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-content: center;
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.Title {
+  border: solid 1px crimson;
+}
+
+.Searchbar {
+  border: solid 1px blue;
+}
+
+.List {
+  width: 100%;
+  border: solid 1px green;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Meal {
+  flex: 0 20%;
+  height: 300px;
+
+
+  text-align: center;
+
+  border: solid 1px red;
+}
